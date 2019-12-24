@@ -1,19 +1,12 @@
-Intro to Ethical Hacking and Security
-
-
+# Intro to Ethical Hacking and Security
 
 This is a beginner workshop tutorial on network hacking tools such as BeEF, Social Fish and Bettercap.
 
+## Bettercap
 
-
-
-Bettercap
-
-
-Bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energydevices, wireless HID devices and Ethernet networks.
+**Bettercap** is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energydevices, wireless HID devices and Ethernet networks.
 
 Power ON the Machine
-
 
 Okay, to start working, we need to first search and click for “VirtualBox” then select the engine and click start at the top. This way we have everything set up to start working with Kali Linux with
 Default username: root and pass: toor
@@ -63,10 +56,10 @@ Default username: root and pass: toor
 
 14.	Now is Testing Time!!! So all you need to do is go to any “http” Website and not “https” and then you can enter some data and check the “POST” Packets to see how your data has been sniffed and sent to the hacker.
 
-BeEF
+## BeEF
 
 
-BeEF is a penetration testing tool that focuses on web browsers vulnerabilities to be able to secure web browsers against malicious attacks.
+**BeEF** is a penetration testing tool that focuses on web browsers vulnerabilities to be able to secure web browsers against malicious attacks.
 
 1.	First, we have to update the repositories to make sure that we start fresh 
 ```apt-get update```
@@ -101,9 +94,7 @@ BeEF is a penetration testing tool that focuses on web browsers vulnerabilities 
 12.	There are many other commands that could performed such as Pretty theft and Google Phishing which creates a fake page exactly like google to record your activities.
 
 
-Social Phishing
-
-
+## Social Phishing
 
 This  is a tool that is used to create a duplicate of a popular site like Facebook,Instagram,Twitter..etc so that the hacker could trick the victim into thinking this is the real page and have them login with their data and  then be able to manipulate the data and perhaps blackmail them with it.
 
@@ -122,19 +113,14 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 
 ```apt-get install python3 python3-pippython3-dev -y```
 
-
-
-
-
 ```Python -m pip install -r requirements.txt```
 
 4.	Now, we initialize the service 
 
 ```Python3 SocialFish.py root pass```
 
-
 5.	 Then, you go to the top under the Social Fish logo, you’ll notice a line that says 
-“Go to http://0.0.0.0:5000/neptune to start”. So you  paste the ip address into your browser.
+“Go to **http://0.0.0.0:5000/neptune** to start”. So you  paste the ip address into your browser.
 
 6.	 You will be redirected to a login page where you can enter “root” for username and “pass” for password
 
