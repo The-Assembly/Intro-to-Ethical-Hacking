@@ -91,6 +91,7 @@ BeEF is a penetration testing tool that focuses on web browsers vulnerabilities 
 9.	Now, we have to run the Apache Server by typing the following commands
 
       ``` apt apache2 install```
+      
       ```service apache2 start```
           
 10.	Then, we have to hook a server file so we go to the browser and paste the ip address of the victim which in this case is our ip address that we got from the -ipconfig- command. You should be redirected then to a page with a msg that says that your hooked.
@@ -120,6 +121,11 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 3.	 Because this tool is python scripted, we will have to apply the following commands
 
 ```apt-get install python3 python3-pippython3-dev -y```
+
+
+
+
+
 ```Python -m pip install -r requirements.txt```
 
 4.	Now, we initialize the service 
