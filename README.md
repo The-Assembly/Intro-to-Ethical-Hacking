@@ -60,9 +60,8 @@ Default username: root and pass: toor
 ```/usr/share/bettercap/caplets```
 
 16.	Now we download the new file by cloning the github repository of the “hstshijack” tool.
-```git clone https://github.com/The-Assembly/Intro-to-Ethical-Hacking/blob/master/hstshijack/
 
-```
+```git clone https://github.com/The-Assembly/Intro-to-Ethical-Hacking/blob/master/hstshijack/```
 
 17.	Then, we go to the downloads file and cut the file named “hstshijack” and paste it in place of the previous file following this path ```/usr/share/bettercap/caplets```
 
