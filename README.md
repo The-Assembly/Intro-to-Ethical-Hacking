@@ -1,4 +1,4 @@
-# Intro to Ethical Hacking and Security
+# Introduction to Ethical Hacking and Cyber Security
 
 This is a beginner workshop tutorial on network hacking tools such as BeEF, Social Fish and Bettercap.
 
