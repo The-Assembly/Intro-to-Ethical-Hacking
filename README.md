@@ -3,6 +3,8 @@
 This is a beginner workshop tutorial on network hacking tools such as BeEF, Social Fish and Bettercap.
 
 # Installation files
+Copy the entire link, instead of clicking on the hyperlink.
+
 https://drive.google.com/open?id=1t2LhMz6TcZ1ne5fXdH1WG3NwOr57WIb_ 
 
 ## Bettercap
