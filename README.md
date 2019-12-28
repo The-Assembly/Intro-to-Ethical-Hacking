@@ -138,7 +138,7 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 
 3.	 Because this tool is python scripted, we will have to apply the following commands
 
-```apt-get install python3 python3-pippython3-dev -y```
+```apt-get install python3 python3-pip python3-dev -y```
 
 ```Python -m pip install -r requirements.txt```
 
