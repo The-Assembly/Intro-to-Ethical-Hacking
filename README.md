@@ -128,7 +128,7 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 
 1.	 To begin with , we have to install the tool by cloning its github repository
 
-```git clone https://github.com/pUndeadSec/SocialFish```
+```git clone https://github.com/UndeadSec/SocialFish```
 
 
 2.	 We  navigate to the folder we just cloned by typing “dir” then 
