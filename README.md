@@ -140,11 +140,11 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 
 ```apt-get install python3 python3-pip python3-dev -y```
 
-```Python -m pip install -r requirements.txt```
+```python -m pip install -r requirements.txt```
 
 4.	Now, we initialize the service 
 
-```Python3 SocialFish.py root pass```
+```python3 SocialFish.py root pass```
 
 5.	 Then, you go to the top under the Social Fish logo, you’ll notice a line that says 
 “Go to **http://0.0.0.0:5000/neptune** to start”. So you  paste the ip address into your browser.
