@@ -6,6 +6,16 @@ This is a beginner workshop tutorial on network hacking tools such as BeEF, Soci
 Copy the entire link, instead of clicking on the hyperlink.
 
 https://drive.google.com/open?id=1t2LhMz6TcZ1ne5fXdH1WG3NwOr57WIb_ 
+<br/>
+
+**Kali Linux image**: https://images.offensive-security.com/virtual-images/kali-linux-2019.4-vbox-amd64.ova <br/>
+**Installation instructions for Windows**: https://www.youtube.com/watch?v=XlJ7FsI0wj4 <br/>
+**Installation instructions for Mac**: https://www.youtube.com/watch?v=J7VFSrye8u0 <br/>
+<br/>
+**Windows 7 image** -https://softlay.net/operating-system/windows-7-ultimate-iso-download.html <br/>
+**Installation instructions for Windows**: https://www.youtube.com/watch?v=cpRTGtCmZUs <br/>
+**Installation instructions for Mac**:https://www.youtube.com/watch?v=HAKJdqYEEmY <br/>
+
 
 ## Bettercap
 
