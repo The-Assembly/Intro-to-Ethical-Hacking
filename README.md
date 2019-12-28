@@ -105,7 +105,7 @@ Default username: root and pass: toor
 
 7.	Paste the script line in the above file and then spot the IP Address at the bottom of the file and fill in you own device ip address. 
 
-8.	Go to the browser and add a zero to the ip address at the top as such “172.0.0.10”. You’ll be directed to a login page so just enter “beef” as username and the password you have set before.
+8.	Go to the browser and add a zero to the ip address at the top as such “172.0.0.1”. You’ll be directed to a login page so just enter “beef” as username and the password you have set before.
 
 
 9.	Now, we have to run the Apache Server by typing the following commands
