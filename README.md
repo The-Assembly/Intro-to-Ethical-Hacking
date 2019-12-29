@@ -160,7 +160,7 @@ This  is a tool that is used to create a duplicate of a popular site like Facebo
 
 9.	You can check your entries or responses got from the fake site we cloned by going down on the original page and clicking “View” to see whatever username and pass were entered.
 
-Zenmap
+### Zenmap
 
 Zenmap is the Nmap security scanner graphical user interface and provides for hundreds of options. It lets users do things like save scans and compare them, view network topology maps, view displays of ports running on a host or all hosts on a network, and store scans in a searchable database
 
@@ -175,7 +175,7 @@ Zenmap is the Nmap security scanner graphical user interface and provides for hu
 7.	Now we don’t know whether this network is vulnerable or not so for that we will be using a tool called “Metasploit” which will be discussed further in the next step.
 
 
-Metasploit
+### Metasploit
 
 The Metasploit Framework is an open source penetration testing and development platform that provides exploits for a variety of applications, operating systems and platforms. Metasploit is one of the most commonly used penetration testing tools and comes built-in to Kali Linux
 
